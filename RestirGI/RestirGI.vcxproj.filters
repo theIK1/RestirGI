@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\core">
+      <UniqueIdentifier>{b3c796d0-1158-4880-8ded-636963c6132e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{c5667d93-e0ec-4179-b642-a58c1c3cde63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\helper">
+      <UniqueIdentifier>{4c8d42f8-4ce2-4d3e-9e33-b79dff533e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\helper">
+      <UniqueIdentifier>{42ae44b5-1ec8-4d97-ba12-772b7acf105c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{73a73249-21b4-4621-8679-b9ec43264069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{bfa8d06e-19fa-41db-933d-8cf8a6321e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\helper\CS">
+      <UniqueIdentifier>{55a5058a-a3cc-4ae1-9df4-447759cd8e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\helper\CS">
+      <UniqueIdentifier>{92f24da6-1798-4b56-8292-ee0261d9f207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\LumenGI">
+      <UniqueIdentifier>{88dc905c-dbb3-4c06-b0a7-380500767163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI">
+      <UniqueIdentifier>{24f4e2c9-8a79-4ae9-8242-701db7d1b481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\wrc">
+      <UniqueIdentifier>{50cd148c-f210-4b5e-a73e-ee6bdf745320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\post">
+      <UniqueIdentifier>{6a8b13a4-effd-4a28-8134-411b694b879b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\prefix_scan">
+      <UniqueIdentifier>{e5a6d619-fb05-437d-9592-c4a47fa316ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\raytracing">
+      <UniqueIdentifier>{20ab2709-d390-4ceb-ba40-7de12be2d81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\rtdgi">
+      <UniqueIdentifier>{1c4aa903-96d8-4424-b0de-43d732a1989c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\rtr">
+      <UniqueIdentifier>{70092de9-f361-46c0-9c93-a9937731210e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\shadow_denoise">
+      <UniqueIdentifier>{83820dfb-b190-477b-ac88-bd0010cb541a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\shadow_denoise\ffx">
+      <UniqueIdentifier>{a1eb4af0-10a2-495f-8097-67c6a90ad993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\sky">
+      <UniqueIdentifier>{b3a2271d-2ca7-4e6e-8cf2-7e7f93a2abd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\CS">
+      <UniqueIdentifier>{4686327d-e6a1-495e-9a0b-a91a65530f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\Gbuffer">
+      <UniqueIdentifier>{2e39ffa0-bd95-45a4-a705-f041b437c9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\inc">
+      <UniqueIdentifier>{d7efa318-63b3-4911-8c20-099913109964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\inc\color">
+      <UniqueIdentifier>{22f143e3-2325-48d6-a837-fdc5269fb10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\inc\lights">
+      <UniqueIdentifier>{3f40bf99-456d-4a6f-a100-13021feef5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\RestirGI\ircache">
+      <UniqueIdentifier>{8b5ff6c7-5f08-4d44-882d-0ed3de160f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\LumenGI\CS">
+      <UniqueIdentifier>{eeeb0ddb-8273-48ae-aa2b-67bfdd3486f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\LumenGI\raytracing">
+      <UniqueIdentifier>{1595e19f-1e73-481b-b382-a59d340ea3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\Common">
+      <UniqueIdentifier>{4f7882bf-89a7-4996-bfe5-38afe026ac9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\DXSample.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Win32Application.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\BottomLevelASGenerator.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\manipulator.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\RootSignatureGenerator.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\ShaderBindingTableGenerator.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\TopLevelASGenerator.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="core\D3DUtility.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\ModelLoader.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\TextureLoader.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\WICTextureLoader12.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\ImGuiImporter.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\CS\createCS.cpp">
+      <Filter>源文件\helper\CS</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\CS\ScreenProbeDownsampleDepthUniformCS.cpp">
+      <Filter>源文件\helper\CS</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\CS\IndirectCS.cpp">
+      <Filter>源文件\helper\CS</Filter>
+    </ClCompile>
+    <ClCompile Include="RestirGI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\PipelineGenerator.cpp">
+      <Filter>源文件\helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\d3dx12.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\DXSample.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Win32Application.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\DXSampleHelper.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\BottomLevelASGenerator.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\manipulator.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\RootSignatureGenerator.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\ShaderBindingTableGenerator.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\TopLevelASGenerator.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="core\D3DUtility.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\ModelLoader.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\TextureLoader.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\WICTextureLoader12.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\ImGuiImporter.h">
+      <Filter>头文件\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\CS\createCS.h">
+      <Filter>头文件\helper\CS</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\CS\ScreenProbeDownsampleDepthUniformCS.h">
+      <Filter>头文件\helper\CS</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\CS\IndirectCS.h">
+      <Filter>头文件\helper\CS</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderInterop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RestirGI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\PipelineGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="shaders\shaders.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\Common.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\RasterGbufferPass.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\RasterLightPass.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\TemporalFilterPixel.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\PostProcessingVertex.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\SVGFATrousFilterPixel.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\PostProcessingPixel.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\Descriptors.hlsl">
+      <Filter>shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\RestirGI\CHS.hlsl" />
+    <CustomBuild Include="shaders\RestirGI\ProbeTraceRGS.hlsl" />
+    <CustomBuild Include="shaders\gbuffer.hlsl">
+      <Filter>shader\RestirGI\Gbuffer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\pack_unpack.hlsl">
+      <Filter>shader\RestirGI\Gbuffer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\reprojectionMapCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\FinalCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\copyDepthCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\extractViewNormalCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\extractHalfDepthCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ssaoCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\bilinear.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\math_const.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\frame_constants.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\uv.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ssaoSpatialCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ssaoUnsampleCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ssaoTemporalCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\reverseDepthCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ircache_constants.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\hash.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ircache_grid.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\scrollCascadesCS.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\_ircacheDispatchArgsCS.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ageIrcacheEntriesCS.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\mesh.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\_prefixScan2CS.hlsl">
+      <Filter>shader\RestirGI\prefix_scan</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\_prefixScanMergeCS.hlsl">
+      <Filter>shader\RestirGI\prefix_scan</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\_prefixScan1CS.hlsl">
+      <Filter>shader\RestirGI\prefix_scan</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ircacheCompactCS.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\_ircacheDispatchArgsCS2.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ircacheResetCS.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ShadowRMiss.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\TraceAccessibilityRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\rt.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\reservoir.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ray_cone.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ircacheValidateRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\brdf.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\math.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ircache_sampler_common_inc.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ircache_trace_common_inc.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\lookup.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\sh.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\quasi_random.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\IrcacheValidateCommon.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\sun.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\atmosphere.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\atmosphere_felix.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\color.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ycbcr.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\srgb.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\triangle.hlsl">
+      <Filter>shader\RestirGI\inc\lights</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\packed.hlsl">
+      <Filter>shader\RestirGI\inc\lights</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\layered_brdf.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\brdf_lut.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\bindless_textures.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\samplers.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\TraceIrradianceRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\traceSunShadowMaskRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\blue_noise.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\rtdgiReprojectCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\curve.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\image.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\sumUpIrradianceCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\extractHalfSSaoCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\RtdgiValidateRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\rtdgi_restir_settings.hlsl">
+      <Filter>shader\RestirGI\rtdgi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\candidate_ray_dir.hlsl">
+      <Filter>shader\RestirGI\rtdgi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\diffuse_trace_common_inc.hlsl">
+      <Filter>shader\RestirGI\rtdgi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\RtdgiTraceRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\near_field_settings.hlsl">
+      <Filter>shader\RestirGI\rtdgi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\rtr_settings.hlsl">
+      <Filter>shader\RestirGI\rtr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\validityIntegrateCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\restirTemporalCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\rtdgi_common.hlsl">
+      <Filter>shader\RestirGI\rtdgi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ShadowRchit.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\restirSpatialCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\occlusion_raymarch.hlsl">
+      <Filter>shader\RestirGI\rtdgi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\restirResolveCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\rtdgiSpatialCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\rtdgiTemporalCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\soft_color_clamp.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\working_color_space.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\brdfFgCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ReflectionTraceRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\reflection_trace_common_inc.hlsl">
+      <Filter>shader\RestirGI\rtr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\skyCubeCS.hlsl">
+      <Filter>shader\RestirGI\sky</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\cube_map.hlsl">
+      <Filter>shader\RestirGI\inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\convolveSkyCS.hlsl">
+      <Filter>shader\RestirGI\sky</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\lightGbufferCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\wrcLookup.hlsl">
+      <Filter>shader\RestirGI\wrc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\wrc_settings.hlsl">
+      <Filter>shader\RestirGI\wrc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\wrc_intersect_probe_grid.hlsl">
+      <Filter>shader\RestirGI\wrc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\shadowBitpackCS.hlsl">
+      <Filter>shader\RestirGI\shadow_denoise</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\shadowTemporalCS.hlsl">
+      <Filter>shader\RestirGI\shadow_denoise</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\shadowSpatialCS.hlsl">
+      <Filter>shader\RestirGI\shadow_denoise</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ffx_denoiser_shadows_filter.hlsl">
+      <Filter>shader\RestirGI\shadow_denoise\ffx</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ffx_denoiser_shadows_prepare.hlsl">
+      <Filter>shader\RestirGI\shadow_denoise\ffx</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ffx_denoiser_shadows_tileclassification.hlsl">
+      <Filter>shader\RestirGI\shadow_denoise\ffx</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ffx_denoiser_shadows_util.hlsl">
+      <Filter>shader\RestirGI\shadow_denoise\ffx</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\clearIrcachePoolCS.hlsl">
+      <Filter>shader\RestirGI\ircache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\helmholtz_kohlrausch.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ipt.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\lab.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\luv.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\oklab.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ictcp.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\xyz.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\colorMath.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\standard_observer.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\postCombineCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\luminance_histogram_common.hlsl">
+      <Filter>shader\RestirGI\post</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\display_transform.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ColorBezold_brucke.hlsl">
+      <Filter>shader\RestirGI\inc\color</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\PathTraceRgen.hlsl">
+      <Filter>shader\RestirGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\clearPathTraceCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\copyTestCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ShadowRay.hlsl">
+      <Filter>shader\LumenGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\LumenRayGen.hlsl">
+      <Filter>shader\LumenGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\Miss.hlsl">
+      <Filter>shader\LumenGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\Hit.hlsl">
+      <Filter>shader\LumenGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\GbufferRchit.hlsl">
+      <Filter>shader\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\GbufferRMiss.hlsl">
+      <Filter>shader\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\BVH.hlsl">
+      <Filter>shader\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\ScreenProbeDownSampleDepthCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\downsample.hlsl">
+      <Filter>shader\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\LumenMath.hlsl">
+      <Filter>shader\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\LumenCommon.hlsl">
+      <Filter>shader\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\clearProbeCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\screenProbeAdaptivePlacementCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\adaptiveScreenProbe.hlsl">
+      <Filter>shader\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\indirectCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\screenProbeConvertToSHCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\screenProbeFilterCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\calRMSECS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\calRMSENumCS.hlsl">
+      <Filter>shader\RestirGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\LumenVaildateRgen.hlsl">
+      <Filter>shader\LumenGI\raytracing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\temporalCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\lightCS.hlsl">
+      <Filter>shader\LumenGI\CS</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
